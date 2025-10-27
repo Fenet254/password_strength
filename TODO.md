@@ -10,5 +10,5 @@
 - [x] Add unit tests in tests.py.
 - [x] Add requirements.txt (currently no dependencies, but prepare for future).
 - [x] Add .gitignore for Python.
-- [ ] Run tests to verify improvements.
-- [ ] Test the script manually.
+- [x] Run tests to verify improvements.
+- [x] Test the script manually.
