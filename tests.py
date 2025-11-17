@@ -12,6 +12,7 @@ class TestPasswordStrengthChecker(unittest.TestCase):
 
 
     def test_medium_password(self):
+
         strength, feedback = check_password_strength("MediumPass123")
         self.assertEqual(strength, "Medium")
         self.assertIn("Password should include at least one special character.", feedback)
