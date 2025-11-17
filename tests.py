@@ -12,6 +12,7 @@ class TestPasswordStrengthChecker(unittest.TestCase):
 
 
 
+
     def test_medium_password(self):
 
         strength, feedback =
