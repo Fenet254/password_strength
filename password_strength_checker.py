@@ -13,6 +13,7 @@ COMMON_PASSWORDS = [
     "football", "baseball", "welcome1", "admin123", "qwerty123"
 ]
 
+
 def calculate_entropy(password):
     """Calculate the entropy of the password."""
     if not password:
