@@ -24,6 +24,7 @@ def calculate_entropy(password):
     if re.search(r'[a-z]', password):
         char_set_size += 26
     if re.search(r'[A-Z]', password):
+
         char_set_size += 26
     if re.search(r'[0-9]', password):
         char_set_size += 10
