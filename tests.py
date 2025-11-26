@@ -5,7 +5,6 @@ import unittest
 from password_strength_checker import check_password_strength, calculate_entropy
 
 class TestPasswordStrengthChecker(unittest.TestCase):
-
     def test_strong_password(self):
         strength, feedback = check_password_strength("StrongPass123!")
         self.assertEqual(strength, "Strong")
