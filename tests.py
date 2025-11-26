@@ -13,7 +13,7 @@ class TestPasswordStrengthChecker(unittest.TestCase):
 
         self.assertEqual(feedback, [])
 
-l
+
 
 
     def test_medium_password(self):
