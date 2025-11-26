@@ -14,7 +14,6 @@ class TestPasswordStrengthChecker(unittest.TestCase):
         self.assertEqual(feedback, [])
 
 
-
     def test_medium_password(self):
 
         strength, feedback =
