@@ -22,7 +22,6 @@ class TestPasswordStrengthChecker(unittest.TestCase):
         strength, feedback =
 
 
-
  check_password_strength("MediumPass123")
 
         self.assertEqual(strength, "Medium")
